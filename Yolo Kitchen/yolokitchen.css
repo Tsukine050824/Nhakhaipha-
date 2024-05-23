@@ -1,0 +1,102 @@
+header, section, footer, aside, nav, article, figure, figcaption{
+    display: block;
+}
+body{
+    color: #666666;
+    background-color: #f9f8f6;
+    background-image: url(../img/header.webp);
+    background-position: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 1.4em;
+    margin: 00px;
+}
+.wrapper{
+    width: 940px;
+    margin: 2px auto 2px auto;
+    border: 2px solid #371477;
+    background-color: #ffffff;
+}
+header{
+    height: 160px;
+    background-image: url(img/header.webp);
+}
+h1{
+    text-indent: -9999px;
+    width: 948px;
+    height: 130px;
+    margin: 0px;
+}
+nav, footer{
+    clear: both;
+    color: #fff;
+    background-color: #aaaca8;
+    height: 38px;
+}
+nav ul{
+    margin: 0px;
+    padding: 10px 20px 30px 30px;
+}
+nav li{
+    display: inline;
+    margin-right: 40px;
+}
+nav li a{
+    color: #b37070;
+}
+nav li a:hover, nav li a.current{
+    color: #c141c5;
+}
+section.courses{
+    float: left;
+    width: 659px;
+    border-right: 1px solid #c49292;
+}
+article{
+    clear: both;
+    overflow: auto;
+    width: 100%;
+}
+hgroup{
+    margin-left: 40px;
+}
+figure{
+    float: left;
+    width: 290px;
+    height: 220px;
+    padding: 9px;
+    margin: 29px;
+    border: 1px solid #eee;
+}
+figcaption{
+    font-size: 20px;
+    text-align: left;
+}
+aside{
+    width: 230px;
+    float: left;
+    padding: 0px 0px 9px 20px;
+}
+aside section a{
+    display: block;
+    padding: 10px;
+    border-bottom: 1px solid rgb(43, 104, 184)
+}
+aside section a:hover{
+    color: #16a82a;
+    background-color: #ffffff;
+}
+a{
+    color: #3f2291;
+    text-decoration: khaki;
+}
+h1, h2, h3{
+    font-weight: initial;
+}
+h2{
+    margin: 10px 0px 0px 0px;
+    padding: 10px;
+}
+h3{
+    margin: 10px 0px 10px 0px;
+    color: #1a0329;
+}
