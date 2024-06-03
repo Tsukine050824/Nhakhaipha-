@@ -8,21 +8,25 @@ body{
     color: aliceblue;
     font-style: italic;
     margin: 0px 200px 0px 250px;
-    
 }
 .bodi{
-    background-color: aliceblue;
-    padding: 24px 24px 24px 24px;
-    margin: 40px 40px 40px 40px;
+    
+        padding-top: 24px;
+        padding-left: 24px;
+        padding-right: 24px;
+        padding-bottom: 24px;
+        background-color: white;
+        margin-left: 110px;
+        margin-right: 40px;
+        border-radius: 0; 
+        margin-bottom: 50px;
+        width: fit-content; 
+    
 }
 p{
     background-color: aqua;
     width: fit-content;
     padding: 5px;
-}
-
-p:hover{
-    color:brown;
 }
 .action_page.php{
     padding: 20px 0px 0px 0px;
@@ -40,7 +44,8 @@ p:hover{
     padding-bottom: 5px;
     margin-bottom: 20px;
 }
-#address{
-    height: 160px;
-    justify-self: start;
+textarea {
+    width: 578px;
+    padding: 11px;
+    margin: 8px 0;
 }
