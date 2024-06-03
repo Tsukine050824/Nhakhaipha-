@@ -1,0 +1,46 @@
+body{
+    background-color:#3498db;
+    margin: 0px 230px 0px 230px;
+    padding: 0px;
+}
+.abcdef{
+    font-family:Arial, Helvetica, sans-serif;
+    color: aliceblue;
+    font-style: italic;
+    margin: 0px 200px 0px 250px;
+    
+}
+.bodi{
+    background-color: aliceblue;
+    padding: 24px 24px 24px 24px;
+    margin: 40px 40px 40px 40px;
+}
+p{
+    background-color: aqua;
+    width: fit-content;
+    padding: 5px;
+}
+
+p:hover{
+    color:brown;
+}
+.action_page.php{
+    padding: 20px 0px 0px 0px;
+}
+#fname{
+    padding: 0px 0px 5px 0px;
+    margin-bottom: 20px;
+    text-align: left;
+}
+#lname{
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+}
+#phone{
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+}
+#address{
+    height: 160px;
+    justify-self: start;
+}

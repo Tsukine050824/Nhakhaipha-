@@ -9,10 +9,10 @@
     line-height: 30px;
 }
 .ms-color{
-    color: #3bc8e7
+    color: #3c8596
 }
 .padding-16{
-    padding-top: 16px;
+    padding-top: 40px;
     padding-bottom: 16px;
 }
 .padding-32{
@@ -96,12 +96,15 @@ html, body{
     white-space: normal;
 }
 .bar .bar-item{
-    padding: 8px 16px;
+    padding: 6px 20px;
     float: left;
     width: auto;
     border: none;
     display: block;
     outline: 0;
+}
+.bar .bar-item button hover-black:hover, bar-item button black{
+    color: crimson;
 }
 .button{
     text-align: center;
@@ -113,13 +116,12 @@ html, body{
     background-color: inherit;
 }
 .black{
-    color: #fff !important;
-    background-color: #000 !important;
+    color: #623db8 !important;
 }
 hr{
     border: 0;
-    border-top: 1px solid #eee;
-    margin: 20px 0;
+    border-top: 1px solid #964545;
+    margin: 40px auto;
     box-sizing: content-box;
     height: 0;
     overflow: visible;

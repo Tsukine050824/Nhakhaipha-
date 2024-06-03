@@ -5,8 +5,7 @@ body{
     background-color: rgb(0, 0, 0);
 }
 #page{
-    max-width: 1000px;
-    min-width: 80px;
+    min-width: 800px;
     margin: 10px auto 10px auto;
     padding: 10px 20px;
     border: 4px double #000;
